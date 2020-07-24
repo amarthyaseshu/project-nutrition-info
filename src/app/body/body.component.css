@@ -1,0 +1,29 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  margin: 20px;
+  list-style: none;
+}
+
+.grid {
+  background-color: white;
+  box-shadow: 5px 7px 10px rgb(23, 18, 36);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  width: 450px;
+  margin: 50px;
+  margin-left: 90px;
+}
+
+.learn-more {
+  background: rgb(22, 16, 37);
+  color: white;
+  padding: 5px;
+  width: 50%;
+  border-radius: 30px;
+  font-size: 1.1em;
+}
+
+
+    

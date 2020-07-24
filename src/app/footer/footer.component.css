@@ -1,0 +1,57 @@
+footer{
+    background-color: rgb(23, 18, 36);
+    height: 400px;
+    width:100%;
+    color: white;
+  }
+  .footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.contactus{
+    margin-right:25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .aboutus{
+    margin-left:20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    .input {
+      font-size: 15px;
+      font-weight: lighter;
+      width: 380px;
+      height: 30px;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      background-color: transparent;
+      color: #ccc;
+    }
+    input:focus{
+        outline: 0;
+        }
+    .sendbutton{
+        border-radius: 30px;
+        width:100px;
+        height:30px;
+        font-size: 1.2em;
+        background-color: transparent;
+        border:1px solid white;
+        color: white;
+      }
+    .sendbutton:hover{
+      background-color: white;
+      color: rgb(18, 15, 27);
+    }
+    .sendbutton:focus{
+      outline: 0;
+    }
+      textarea:focus{
+        outline: 0;
+      }
+      .finalfooter{
+        background-color: rgb(30, 24, 47);
+        padding :5px;
+      }

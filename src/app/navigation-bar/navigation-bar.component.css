@@ -1,0 +1,27 @@
+.navigation {
+  width: 100%;
+}
+
+.align_right {
+  flex: 1 1 auto;
+}
+
+.nav a:hover {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.nav a {
+  color: white;
+}
+
+#title {
+  color: darkblue;
+  text-decoration-style: solid;
+}
+
+#icon {
+  color: yellowgreen;
+}
+
+
