@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
-
   list-style: none;
 }
 
@@ -23,4 +22,24 @@
   width: 50%;
   border-radius: 30px;
   font-size: 1.1em;
+}
+
+.card1 {
+  background-color: lightblue;
+}
+
+.searchbar {
+  float: inherit;
+  padding: 35px;
+  margin-left: 350px;
+  border-radius: 75%;
+  font-size: 17px;
+  border: none;
+  
+}
+
+.txt{
+  height: 50px;
+  width: 600px;
+  border-radius: 7px;
 }

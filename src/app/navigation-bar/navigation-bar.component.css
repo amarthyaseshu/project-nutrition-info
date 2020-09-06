@@ -1,6 +1,5 @@
 .navigation {
   width: 100%;
-  
 }
 
 .align_right {
@@ -10,6 +9,7 @@
 .nav a:hover {
   background-color: whitesmoke;
   color: blue;
+  text-decoration: none;
 }
 
 .nav a {
@@ -25,4 +25,6 @@
   color: yellowgreen;
 }
 
-
+.searchbar {
+  margin-right: 110px;
+}

@@ -1,27 +1,35 @@
+<!-- search bar for searching nutrients by name -->
+
+<div class="searchbar">
+  <input type="text" [(ngModel)]="pattern" class="txt" placeholder="       Search Nutrients By Name" />
+</div>
+
 <!-- for filtering and displaying the required nutrient cards for user -->
-<div class="card">
-  <ul class='list'>
-    <li class="grid"
-      *ngFor="let nutrient of nutrients  | nutrientSearch:'scientific_name':pattern | nutrientSearch:'essential_for':filter ; ">
-      <mat-card class="nutrient-card">
-        <mat-card-header>
-          <mat-card-title>{{nutrient.name}}</mat-card-title>
-          <mat-card-subtitle>{{nutrient.scientific_name}}</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src="{{nutrient.image}}" alt="nutrientimage">
-        <mat-card-content>
-          <p><span>
-              <h1>Description: </h1>
-            </span>{{nutrient.description}}</p>
-          <p><span>
-              <h2>Most Essential For: </h2>
-            </span>{{nutrient.essential_for}}</p>
-          <p><span>
-              <h2>Source Foods: </h2>
-            </span>{{nutrient.foods}}</p>
-        </mat-card-content>
-        <a href="{{nutrient.url}}"><button class="learn-more" mat-button>Learn More</button></a>
-      </mat-card>
-    </li>
-  </ul>
+<div>
+  <div class="card1">
+    <ul class='list'>
+      <li class="grid" *ngFor="let nutrient of nutrients | nutrientSearch:'name':pattern | nutrientSearch:'essential_for':filter ;
+">
+        <mat-card class="nutrient-card">
+          <mat-card-header>
+            <mat-card-title>{{nutrient.name}}</mat-card-title>
+            <mat-card-subtitle>{{nutrient.scientific_name}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="{{nutrient.image}}" alt="nutrientimage">
+          <mat-card-content>
+            <p><span>
+                <h1>Description: </h1>
+              </span>{{nutrient.description}}</p>
+            <p><span>
+                <h2>Most Essential For: </h2>
+              </span>{{nutrient.essential_for}}</p>
+            <p><span>
+                <h2>Source Foods: </h2>
+              </span>{{nutrient.foods}}</p>
+          </mat-card-content>
+          <a href="{{nutrient.url}}"><button class="learn-more" mat-button>Learn More</button></a>
+        </mat-card>
+      </li>
+    </ul>
+  </div>
 </div>

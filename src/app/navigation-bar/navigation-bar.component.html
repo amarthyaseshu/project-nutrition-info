@@ -6,21 +6,8 @@
      </span>
      <div class="align_right"></div>
      <div class="nav">
+       
        <a href="/navigation bar" mat-button (click)="setValue('')">Home</a>
-       <!-- menu for searching nutrients by name -->
-       <a mat-button [matMenuTriggerFor]="menu">Search By Nutrients</a>
-       <mat-menu #menu="matMenu">
-         <mat-button mat-menu-item (click)="setValue1('Retinol')">Vitamin-A</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Cholecalciferol')">Vitamin-D</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('α-tocopherol')">Vitamin-E</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Phytomenadione')">Vitamin-K</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Ascorbic acid')">Vitamin-C</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('VitaminB')">Vitamin-B</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Minerals')">Minerals</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Protein')">Proteins</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Fats')">Fats</mat-button>
-         <mat-button mat-menu-item (click)="setValue1('Carbohydrates')">Carbohydrates</mat-button>
-       </mat-menu>
 
        <!-- menu for searching nutrients for different body elements -->
        <a mat-button [matMenuTriggerFor]="menu1">Search Nutrients For Multiple Purpose</a>

@@ -16,6 +16,5 @@ export class BodyComponent implements OnInit {
   ngOnInit(): void {
     this.nutrients = nutrientsData;
     this.info.currentValue.subscribe((value) => (this.filter = value));
-    this.info.currentValue1.subscribe((value1) => (this.pattern = value1));
   }
 }
