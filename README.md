@@ -3,8 +3,14 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
 A single page application, providing info related to different nutritious food. Reduces the time of the user, searching for particular nutrition.
-TECHNOLOGIES USED: HTML, CSS, JS, TS, Angular
+
+TECHNOLOGIES USED: HTML, CSS, JS, TS, Angular.
+
 CONCEPTS USED: Angular materials, services, routing, binding, pipes, filters, structural directives, and component interaction
+
+This Project is deployed in heroku.
+
+Deployed Project Link(Heroku): https://nutrition-info.herokuapp.com/
 
 
 
